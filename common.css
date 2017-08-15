@@ -1,5 +1,91 @@
-#block{
-    width:200px;
-    height: 200px;
-    background: yellow;
+body{
+  background-image: url(img/1.jpg) ;
+}
+#test{
+  height: 1500px;
+  width: 1000px;
+  margin-top: 0;
+  margin: auto;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  font-size: 40px;
+  display:block;
+  float:left;
+  padding-left:90px;
+}
+a:hover{
+  color: red;
+}
+#menu{
+  width: 1000px;
+  height: 50px;
+  position: fixed;
+  background-image: url(img/2.jpg);
+}
+#plagin{
+  padding-top: 20px;
+  background-color: #70b7db;
+}
+#foot{
+  font-size: 20px;
+  padding-left: 200px;
+}
+#layer{
+  margin: auto;
+  width: auto;
+  height: 400px;
+  padding-top: 100px;
+}
+.text{
+  font-size: 20px;
+  font-family: cursive;
+  padding-left: 20px;
+  color:red;
+}
+.text1{
+  float: right;
+}
+#map{
+  width: 480px;
+  height: 350px;
+  float:left;
+}
+iframe{
+  float:right;
+}
+marquee{
+  padding-top:50px;
+}
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
 }

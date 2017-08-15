@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Training</title>
+    <link href="common.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+</head>
+<body>
+
+    <div id="test">
+      <div id="menu">
+        <a href="#">Главная</a>
+        <a href="#">Контакты</a>
+        <a href="#">О нас</a>
+        <a href="#">Новости</a>
+      </div>
+
+      <div id="plagin">
+        <section class="vertical-center slider">
+          <div>
+            <img src="img/3.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/4.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/5.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/6.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/7.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/8.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/9.png"  height="200px">
+          </div>
+          <div>
+            <img src="img/10.png" height="200px">
+          </div>
+        </section>
+      </div>
+      <div id="layer">
+        <p class="text">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+        <p class="text1">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+        <p class="text">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+        <p class="text1">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+        <p class="text">zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+      </div>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5441.8723852665!2d28.798882876517105!3d47.00222581659683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1502784248424" width="480" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <iframe width="500" height="350" src="https://www.youtube.com/embed/XGSy3_Czz8k">
+      </iframe>
+      <marquee behavior="alternate" direction="left">
+        <p class="text">Бегущая строка</p>
+      </marquee>
+    </div>
+    <div id="footer">
+      <p id="foot">Copyright © 2017</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).on('ready', function() {
+        $(".vertical-center-4").slick({
+          dots: true,
+          vertical: true,
+          centerMode: true,
+          slidesToShow: 4,
+          slidesToScroll: 2
+        });
+        $(".vertical-center-3").slick({
+          dots: true,
+          vertical: true,
+          centerMode: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+        $(".vertical-center-2").slick({
+          dots: true,
+          vertical: true,
+          centerMode: true,
+          slidesToShow: 2,
+          slidesToScroll: 2
+        });
+        $(".vertical-center").slick({
+          dots: true,
+          vertical: true,
+          centerMode: true,
+        });
+        $(".vertical").slick({
+          dots: true,
+          vertical: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+        $(".regular").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+        $(".center").slick({
+          dots: true,
+          infinite: true,
+          centerMode: true,
+          slidesToShow: 5,
+          slidesToScroll: 3
+        });
+        $(".variable").slick({
+          dots: true,
+          infinite: true,
+          variableWidth: true
+        });
+        $(".lazy").slick({
+          lazyLoad: 'ondemand', // ondemand progressive anticipated
+          infinite: true
+        });
+      });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
